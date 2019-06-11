@@ -15,7 +15,7 @@ public class App {
 		}
 
 		System.out.println();
-		System.out.println(reverse("AureliuS"));
+		System.out.println(reverse2("AureliuS"));
 	}
 
 	public static String reverse(String str) {
@@ -31,6 +31,21 @@ public class App {
 		}
 
 		return String.valueOf(arr);
+	}
+
+	public static String reverse2(String str) {
+		Stack stack = new Stack(str.length());
+
+		for (int i = 0; i < str.length(); i++) {
+			stack.push(str.charAt(i));
+		}
+
+		String res = "";
+		while (!stack.isEmpty()) {
+			res += stack.pop();
+		}
+
+		return res;
 	}
 
 }
