@@ -92,6 +92,7 @@ public class SinglyLinkedList {
 				current = current.next;
 			}
 			current.next = null;
+			last = current;
 			return deleted;
 		}
 	}

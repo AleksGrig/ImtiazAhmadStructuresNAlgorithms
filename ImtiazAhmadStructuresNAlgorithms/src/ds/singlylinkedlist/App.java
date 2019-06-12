@@ -20,6 +20,9 @@ public class App {
 		list.deleteLast();
 		list.displayList();
 
+		list.insertLast("TEST!");
+		list.displayList();
+
 
 	}
 
