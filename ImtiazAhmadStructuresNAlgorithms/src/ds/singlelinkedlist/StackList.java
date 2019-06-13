@@ -1,8 +1,8 @@
-package ds.singlylinkedlist;
+package ds.singlelinkedlist;
 
 public class StackList {
 
-	private SinglyLinkedList list = new SinglyLinkedList();
+	private SingleLinkedList list = new SingleLinkedList();
 
 	public void push(Object data) {
 		list.insertFirst(data);

@@ -1,11 +1,11 @@
-package ds.singlylinkedlist;
+package ds.singlelinkedlist;
 
-public class SinglyLinkedList {
+public class SingleLinkedList {
 
 	private Node first;
 	private Node last;
 
-	public SinglyLinkedList() {
+	public SingleLinkedList() {
 		first = null;
 		last = first;
 	}
@@ -92,6 +92,7 @@ public class SinglyLinkedList {
 				current = current.next;
 			}
 			current.next = null;
+			last = current;
 			return deleted;
 		}
 	}

@@ -1,9 +1,9 @@
-package ds.singlylinkedlist;
+package ds.singlelinkedlist;
 
 public class App {
 
 	public static void main(String[] args) {
-		SinglyLinkedList list = new SinglyLinkedList();
+		SingleLinkedList list = new SingleLinkedList();
 		list.insertFirst("First element");
 		list.insertLast("Second element");
 		list.insertLast("Last");
@@ -18,6 +18,9 @@ public class App {
 
 		list.deleteFirst();
 		list.deleteLast();
+		list.displayList();
+
+		list.insertLast("TEST!");
 		list.displayList();
 
 
