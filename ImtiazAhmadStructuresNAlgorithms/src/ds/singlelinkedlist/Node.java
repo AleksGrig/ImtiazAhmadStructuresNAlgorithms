@@ -1,4 +1,4 @@
-package ds.singlylinkedlist;
+package ds.singlelinkedlist;
 
 public class Node {
 	public Object data;
