@@ -1,11 +1,11 @@
-package ds.singlelinkedlist;
+package ds.singlylinkedlist;
 
-public class SingleLinkedList {
+public class SinglyLinkedList {
 
 	private Node first;
 	private Node last;
 
-	public SingleLinkedList() {
+	public SinglyLinkedList() {
 		first = null;
 		last = first;
 	}
